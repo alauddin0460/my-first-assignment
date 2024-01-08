@@ -1,0 +1,32 @@
+/* banner section  */
+
+.banner-section {
+    background-image: url('../images/background-image.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+
+.party {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 233px 344px 177px;
+
+}
+
+.new-year {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 177px 531px 383px 530px;
+}
