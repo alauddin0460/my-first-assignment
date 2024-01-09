@@ -73,6 +73,7 @@
     flex-shrink: 0;
     margin-left: 398px;
 }
+
 #off-section {
     margin: auto;
 }
@@ -117,6 +118,7 @@
     height: 482px;
     width: 1320px;
     height: 482px;
+    margin: auto;
 }
 
 .container-data {}
@@ -125,7 +127,7 @@ span {
     color: #F00;
 }
 
-#dolor{
+#dolor {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -138,7 +140,6 @@ span {
 }
 
 .container-place {
-    color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 32px;
@@ -151,6 +152,7 @@ span {
     width: 1320px;
     height: 482px;
     padding-top: 100px;
+    margin: auto;
 
 }
 
@@ -178,6 +180,57 @@ button {
 .offer-plaece {
     width: 1320px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 120px;
+    margin: auto;
+}
+
+.container-funtion {
+    text-align: center;
+}
+
+.funtional {
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+
+}
+
+.awesome-portfolio {
+    text-align: center;
+}
+
+#awesome-image {
+    margin: auto;
+}
+
+.subcribe-seetion {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+}
+
+.subscrib {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: auto;
+    padding: 120px;
+}
+
+input {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+subs {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
 }
