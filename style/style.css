@@ -1,10 +1,18 @@
 .container {
     background-image: url(../images/background-image.png);
-    padding: 50px 140px 0px 140px;
     width: 1320px;
     height: 600px;
-    flex-shrink: 0;
     background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 16px;
+
+}
+
+.liniear {
+    border-radius: 16px;
+    background-image:
+
+
 }
 
 .new-year {
@@ -59,13 +67,14 @@
     line-height: normal;
 }
 
-#image {}
-
 .image-cut {
     width: 800px;
     height: 500px;
     flex-shrink: 0;
     margin-left: 398px;
+}
+#off-section {
+    margin: auto;
 }
 
 /* welcome section  */
@@ -73,6 +82,7 @@
     background-image: url('../images/Vectorrr.png');
     width: 1320px;
     height: 600px;
+    margin: auto;
 }
 
 .welcome {
@@ -101,17 +111,21 @@
 }
 
 .place-data {
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1320px;
     height: 482px;
     padding-left: 140px;
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    height: 482px; 
+    height: 482px;
     width: 1320px;
     height: 482px;
 }
 
-#place {
+.container-data {}
+
+span {
+    color: #F00;
+}
+
+#dolor{
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -119,6 +133,51 @@
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
-    padding-left: 385px;
+
+
+}
+
+.container-place {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 482px;
     padding-top: 100px;
+
+}
+
+button {
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    stroke: none;
+}
+
+
+#paddin {
+    padding: 120px;
+}
+
+#padding {
+    padding-top: 120px;
+}
+
+.offer-plaece {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
 }
